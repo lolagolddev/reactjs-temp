@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg-primary: #e6f0ff;
+  --bg-light-primary: #f5fafe;
+  --text-heading: #000336;
+  --btn-bg: #0f1b4c;
+  --text-normal: #5a6473;
+  --text-primary: #4f5361;
+  --text-blue: #0689ff;
+  --card-bg: #17275f;
+  --text-black: #000000;
+  --text-white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: var(--text-normal);
+}
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+h2 {
+  color: var(--text-heading);
+  font-size: 2rem;
+}
+.container {
+  width: 85vw;
+  max-width: 1110px;
+  margin: auto;
+}
